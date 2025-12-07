@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang = "zh">
+<head>
+<meta charset = "utf-8">
+<title>Virux!</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id = "arena">
+<div id = "opponentArea">
+<div id = "opponentHero" class = "hero">Opponent Health: <span id = "opponentHealth">20</span></div>
+<div id = "opponentRealm" class = "Realm"></div>
+</div>
+<div id = "playerArea">
+<div id = "playerHero" class = "hero">Your Health: <span id = "playerHealth">20</span></div>
+<div id = "playerRealm" class = "Realm"></div>
+<div id = "inventory" class = "inventory"></div>
+</div>
+<script src="/socket.io/socket.io.js"></script>
+<script src="game.js"></script>
+</body>
+</html>

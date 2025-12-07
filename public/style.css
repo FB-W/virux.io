@@ -1,0 +1,56 @@
+body {
+    background: #1c1c28;
+    font-family: sans-serif;
+    color: white;
+}
+
+#game {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero {
+    padding: 12px;
+    text-align: center;
+    background: #333a50;
+    border-radius: 12px;
+    margin: 8px auto;
+    width: 200px;
+    font-size: 18px;
+}
+
+.realm {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    min-height: 120px;
+}
+
+.card {
+    width: 100px;
+    height: 150px;
+    border-radius: 12px;
+    background: linear-gradient(#d5a452, #9c6b2f);
+    border: 3px solid #60421a;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 6px;
+    cursor: pointer;
+    transition: transform .2s, box-shadow .2s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 12px gold;
+}
+
+.inventory {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    padding: 12px;
+}
